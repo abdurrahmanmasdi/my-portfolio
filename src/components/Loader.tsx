@@ -33,7 +33,9 @@ const Loader: React.FC<LoaderProps> = ({ className = '' }) => {
     <div id="loader" ref={loaderRef} className="preloader">
       <div ref={loadingRef} className="loading">
         <div className="profile-image">
-          <img src="images/profile-loader.jpg" alt="" />
+
+          <img src="images/profile-loader.jpeg" alt="" />
+          
           <svg style={{ position: 'absolute' }} width="100px" height="100px" viewBox="0 0 100 100" preserveAspectRatio="none">
             <circle 
               className="js-circle circle" 

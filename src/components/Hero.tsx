@@ -14,10 +14,8 @@ export function Hero() {
           </div>
           <div className="social-links clip-animation">
             <ul>
-              <li><a href="#" target="_blank">Fb.</a></li>
-              <li><a href="#" target="_blank">Tw.</a></li>
-              <li><a href="#" target="_blank">Ins.</a></li>
-              <li><a href="#" target="_blank">Drb.</a></li>
+              <li><a href="https://www.linkedin.com/in/abdurrahman-masdi" target="_blank">Ln.</a></li>
+              <li><a href="https://github.com/abdurrahmanmasdi" target="_blank">Gh.</a></li>
             </ul>
           </div>
         </div>

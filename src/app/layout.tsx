@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "@/css/globals.css";
 import "@/css/main.css";
 import {Footer, Loader} from "@/components";
 import Provider from "./Provider";
