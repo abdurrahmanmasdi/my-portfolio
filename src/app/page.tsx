@@ -12,7 +12,7 @@ export default function Home() {
           <Testimonials />
         </div>
       </Layout>
-      <Footer />
+      
     </>
   );
 }

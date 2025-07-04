@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Footer() {
   return (
     <footer>
@@ -7,10 +9,8 @@ export function Footer() {
             <p>Copyright 2025 - All right reserved</p>
           </div>
           <ul className="social">
-            <li><a target="_blank" href="#">Facebook</a></li>
-            <li><a target="_blank" href="#">Twitter</a></li>
-            <li><a target="_blank" href="#">Instagram</a></li>
-            <li><a target="_blank" href="#">Dribbble</a></li>
+            <li><Link target="_blank" href="https://www.linkedin.com/in/abdurrahman-masdi">Linkedin</Link></li>
+            <li><Link target="_blank" href="https://github.com/abdurrahmanmasdi">Github</Link></li>
           </ul>
         </div>
       </div>
