@@ -19,7 +19,8 @@
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
     "react-typed": "^2.0.12",
-    "smooth-scrollbar": "^8.8.4"
+    "smooth-scrollbar": "^8.8.4",
+    "swiper": "^11.2.10"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

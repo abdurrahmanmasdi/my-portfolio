@@ -792,7 +792,7 @@ hr{
 	display: flex;
   }
 
-  .testimonial-carousel .left i{
+  .testimonial-carousel .left {
     font-size: 40px;
 	padding-right: 30px;
   }

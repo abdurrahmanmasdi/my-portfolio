@@ -1,5 +1,5 @@
 "use client"
-import { Layout, Navigation, Footer, Hero, Services } from "@/components";
+import { Layout, Navigation, Footer, Hero, Services, Testimonials } from "@/components";
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
           <Navigation />
           <Hero />
           <Services />
+          <Testimonials />
         </div>
       </Layout>
       <Footer />
