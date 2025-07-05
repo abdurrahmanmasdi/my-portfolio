@@ -2,11 +2,8 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 
-interface LoaderProps {
-  className?: string;
-}
 
-const Loader: React.FC<LoaderProps> = ({ className = '' }) => {
+const Loader: React.FC = () => {
   const loaderRef = useRef<HTMLDivElement>(null);
   const loadingRef = useRef<HTMLDivElement>(null);
 

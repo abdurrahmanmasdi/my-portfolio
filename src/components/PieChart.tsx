@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
-import { Chart, registerables, ChartConfiguration, ChartData, ChartType } from 'chart.js';
+import { Chart, registerables, ChartConfiguration, ChartData } from 'chart.js';
 
 interface PieChartProps {
   value: number;

@@ -1,10 +1,8 @@
 import React from 'react';
-import { RiComputerLine, RiDatabase2Line, RiSettings3Line } from "react-icons/ri";
+import { RiComputerLine, RiSettings3Line } from "react-icons/ri";
 import { SiCcleaner } from "react-icons/si";
 import { PiStrategy } from "react-icons/pi";
-import { MdLocationOn } from "react-icons/md";
 import { RiSeoLine } from "react-icons/ri";
-import { GrSystem } from "react-icons/gr";
 import { BiMobileAlt } from 'react-icons/bi';
 
 interface Service {

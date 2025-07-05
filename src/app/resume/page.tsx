@@ -1,8 +1,7 @@
 "use client";
 import { useEffect, useRef } from "react";
-import { Chart, registerables, ChartConfiguration, ChartData, ChartType } from 'chart.js';
+import { Chart, registerables, ChartConfiguration, ChartData } from 'chart.js';
 import gsap from "gsap";
-import { Navigation } from "@/components";
 
 Chart.register(...registerables);
 

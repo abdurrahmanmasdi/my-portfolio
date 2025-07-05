@@ -2,7 +2,6 @@
 import { useEffect, useRef } from "react";
 import Scrollbar from "smooth-scrollbar";
 // import * as barba from '@barba/core';
-import { gsap } from 'gsap';
 
 interface ScrollbarOffset {
   y: number;

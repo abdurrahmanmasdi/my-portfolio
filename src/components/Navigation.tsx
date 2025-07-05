@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { gsap } from "gsap";
 import { useRef } from "react";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 export function Navigation() {
   const headerRef = useRef<HTMLDivElement>(null);

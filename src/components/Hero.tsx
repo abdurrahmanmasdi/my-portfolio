@@ -26,7 +26,7 @@ export function Hero() {
           </h5>
           <div className="spacer-15"></div>
           <h1 className="hero-big classic-animation" data-delay=".7">
-            I'm Abdurrahman masdi<br />
+            I&apos;m Abdurrahman masdi<br />
             I am a <ReactTyped 
             className="ml-2 element"
                 strings={["team player.", "problem solver.", "creative coder."]} 
@@ -58,7 +58,7 @@ export function Hero() {
       </div>
       <div className="spacer-30"></div>
       <p className="clip-animation" data-delay="1.1">
-        I'm a Creative Developer focused on interactive projects like web apps and dynamic websites. I spend most of my time crafting high-quality user experiences and continuously exploring new technologies to improve my development stack. I bring compelling designs to life with smooth transitions and animations, using modern tools to build fully interactive and responsive websites tailored to my clients' needs.
+        I&apos;m a Creative Developer focused on interactive projects like web apps and dynamic websites. I spend most of my time crafting high-quality user experiences and continuously exploring new technologies to improve my development stack. I bring compelling designs to life with smooth transitions and animations, using modern tools to build fully interactive and responsive websites tailored to my clients&apos; needs.
       </p>
     </section>
   );
