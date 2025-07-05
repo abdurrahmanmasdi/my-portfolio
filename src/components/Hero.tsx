@@ -1,3 +1,4 @@
+"use client"
 import { FaRegCalendarAlt, FaWhatsapp } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
 import { ReactTyped } from "react-typed";

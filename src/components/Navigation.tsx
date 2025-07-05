@@ -1,13 +1,17 @@
 "use client"
 import Link from "next/link";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { gsap } from "gsap";
 import { useRef } from "react";
+import { usePathname, useRouter } from "next/navigation";
 
 export function Navigation() {
   const headerRef = useRef<HTMLDivElement>(null);
   const hamburgerRef = useRef<HTMLDivElement>(null);
 
+  const [activeLink, setActiveLink] = useState("/");
+  const pathname = usePathname()
+  
   useEffect(() => {
     const headerAnimation = gsap.timeline({ yoyo: false, reversed: true });
     headerAnimation.pause();
@@ -49,7 +53,14 @@ export function Navigation() {
       });
     };
   }, []);
-
+  
+  
+  useEffect(() => {
+    setActiveLink(pathname);
+  }, [pathname])
+  
+  
+  
   return (
     <header ref={headerRef} id="fixed">
       <div ref={hamburgerRef} className="hamburger hamburger--elastic">
@@ -59,9 +70,9 @@ export function Navigation() {
       </div>
       <nav>
         <ul>
-          <li><Link className="active" href="/">Home</Link></li>
-          <li><Link href="/resume">Resume</Link></li>
-          <li><Link href="/portfolio">Portfolio</Link></li>
+          <li onClick={() => setActiveLink("/")}><Link className={activeLink === "/" ? "active" : ""} href="/">Home</Link></li>
+          <li onClick={() => setActiveLink("/resume")}><Link className={activeLink === "/resume" ? "active" : ""} href="/resume">Resume</Link></li>
+          {/* <li onClick={() => setActiveLink("/portfolio")}><Link className={activeLink === "/portfolio" ? "active" : ""} href="/portfolio">Portfolio</Link></li> */}
         </ul>
       </nav>
     </header>
