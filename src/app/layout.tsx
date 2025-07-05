@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "@/css/globals.css";
 import "@/css/main.css";
-import {Footer, Layout, Loader} from "@/components";
+import {Footer, Layout, Loader, Navigation} from "@/components";
 import Provider from "./Provider";
 
 
@@ -23,6 +23,7 @@ export default function RootLayout({
         <Provider>
           <Loader />
           <Layout>
+            <Navigation />
             {children}
 
           </Layout>
